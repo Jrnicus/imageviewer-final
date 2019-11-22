@@ -5,7 +5,7 @@ import java.awt.Color;
  * @author Steve Cate
  * @version 11/18/19
  */
-public class RedTint extends Filter
+public class RedTintFilter extends Filter
 {
     private OFImage original;
     private int width;
@@ -14,7 +14,7 @@ public class RedTint extends Filter
     /**
      * Constructor for objects of class RedChannel
      */
-    public RedTint(String name)
+    public RedTintFilter(String name)
     {
         // initialise instance variables
         super(name);

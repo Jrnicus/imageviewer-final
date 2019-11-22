@@ -5,7 +5,7 @@ import java.awt.Color;
  * @author Steve Cate
  * @version 11/18/19
  */
-public class GreenTint extends Filter
+public class BlueTintFilter extends Filter
 {
     private OFImage original;
     private int width;
@@ -14,7 +14,7 @@ public class GreenTint extends Filter
     /**
      * Constructor for objects of class RedChannel
      */
-    public GreenTint(String name)
+    public BlueTintFilter(String name)
     {
         // initialise instance variables
         super(name);
@@ -29,7 +29,7 @@ public class GreenTint extends Filter
         for(int y = 0; y < height; y++) {
             for(int x = 0; x < width; x++) {
                 Color pix = image.getPixel(x, y);
-                image.setPixel(x, y, new Color (pix.getRed(), 255, pix.getBlue()));
+                image.setPixel(x, y, new Color (pix.getRed(), pix.getGreen(), 255));
             }
         }
     }
