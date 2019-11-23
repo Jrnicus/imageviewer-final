@@ -1,6 +1,7 @@
 import java.awt.Color;
 /**
- * Write a description of class RedChannel here.
+ * This filter will apply a green tint to the image by changing the green value of every pixel to 255 
+ * so it will look like the same image with a green film over it.
  *
  * @author Steve Cate
  * @version 11/18/19
@@ -20,6 +21,11 @@ public class GreenTintFilter extends Filter
         super(name);
     }
     
+    /**
+     * This will apply the green tint to a image that is given as a parmater
+     * the tint is applied pixel by pixel in a loop.
+     * @param OFImage image
+     */
     public void apply(OFImage image)
     {
         original = new OFImage(image);

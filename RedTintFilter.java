@@ -1,6 +1,7 @@
 import java.awt.Color;
 /**
- * Write a description of class RedChannel here.
+ * This filter will apply a red tint to the image by changing the red value of every pixel to 255 
+ * so it will look like the same image with a red film over it.
  *
  * @author Steve Cate
  * @version 11/18/19
@@ -20,6 +21,11 @@ public class RedTintFilter extends Filter
         super(name);
     }
     
+    /**
+     * This will apply the red tint to a image that is given as a parmater
+     * the tint is applied pixel by pixel in a loop.
+     * @param OFImage image
+     */
     public void apply(OFImage image)
     {
         original = new OFImage(image);

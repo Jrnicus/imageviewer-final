@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=FlippedWarholFilter
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ RedChannel\ here.\r\n\r\n\ @author\ Steve\ Cate\r\n\ @version\ 11/18/19\r\n
+comment0.text=\r\n\ This\ filter\ will\ make\ a\ Andy\ Warhol\ like\ image\ by\ make\ the\ image\ a\ quarter\ of\ the\ orginal\ size\r\n\ and\ repeating\ the\ quarter\ size\ image\ 4\ times\ in\ the\ space\ of\ the\ orginal\ image\ size.\r\n\ Ofcurse\ warhol\ screen\ printed\ his\ designs\ and\ picked\ the\ colors\ in\ each\ box\ which\ would\ be\ hard\ to\ copy\r\n\ sense\ the\ color\ choices\ were\ his\ idea\ and\ not\ simply\ based\ on\ a\ shift\ in\ RGB\ values.\ \r\n\ So\ for\ simplicity\ we\ will\ make\ the\ top\ left\ box\ the\ orginal\ color,\ the\ top\ right\ box\ the\ red\ channel\ of\ the\ orginal\ image,\r\n\ the\ bottom\ left\ box\ the\ green\ channel\ of\ the\ orginal\ image,\ and\ the\ bottom\ right\ box\ will\ be\ the\ blue\ channel\ of\ the\r\n\ orginal\ image.\r\n\ This\ filter\ will\ also\ have\ a\ twist\ to\ it\ each\ smaller\ image\ (box)\ will\ flow\ into\ the\ next\ one\ by\ flipping\ the\ two\r\n\ right\ side\ boxes\ horizontally\ and\ flipping\ the\ two\ bottom\ boxes\ veritcally.\r\n\r\n\ @author\ Steve\ Cate\r\n\ @version\ 11/18/19\r\n
 comment1.params=name
 comment1.target=FlippedWarholFilter(java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RedChannel\r\n
 comment2.params=image
 comment2.target=void\ apply(OFImage)
+comment2.text=\r\n\ This\ will\ apply\ the\ filter\ to\ the\ image\ makeing\ 4\ images\ that\ flow\ into\ each\ other\ with\ diffrent\ colors\r\n\ for\ each\ smaller\ image.\r\n\ @param\ OFImage\ image\r\n
 numComments=3

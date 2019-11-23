@@ -1,6 +1,7 @@
 import java.awt.Color;
 /**
- * Write a description of class RedChannel here.
+ * This will display the Red Channel in grey scale by setting the green and blue values for each pixel 
+ * equal to the value of the red at each pixel.
  *
  * @author Steve Cate
  * @version 11/18/19
@@ -20,6 +21,11 @@ public class RedChannel extends Filter
         super(name);
     }
     
+    /**
+     * This will display the red channel of a image that is given as a parmater in grey scale
+     * each pixels color is chnaged 1 by 1 in a loop.
+     * @param OFImage image
+     */
     public void apply(OFImage image)
     {
         original = new OFImage(image);

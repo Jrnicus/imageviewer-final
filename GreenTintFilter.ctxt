@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=GreenTintFilter
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ RedChannel\ here.\r\n\r\n\ @author\ Steve\ Cate\r\n\ @version\ 11/18/19\r\n
+comment0.text=\r\n\ This\ filter\ will\ apply\ a\ green\ tint\ to\ the\ image\ by\ changing\ the\ green\ value\ of\ every\ pixel\ to\ 255\ \r\n\ so\ it\ will\ look\ like\ the\ same\ image\ with\ a\ green\ film\ over\ it.\r\n\r\n\ @author\ Steve\ Cate\r\n\ @version\ 11/18/19\r\n
 comment1.params=name
 comment1.target=GreenTintFilter(java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RedChannel\r\n
 comment2.params=image
 comment2.target=void\ apply(OFImage)
+comment2.text=\r\n\ This\ will\ apply\ the\ green\ tint\ to\ a\ image\ that\ is\ given\ as\ a\ parmater\r\n\ the\ tint\ is\ applied\ pixel\ by\ pixel\ in\ a\ loop.\r\n\ @param\ OFImage\ image\r\n
 numComments=3

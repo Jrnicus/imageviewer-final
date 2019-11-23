@@ -1,6 +1,7 @@
 import java.awt.Color;
 /**
- * Write a description of class RedChannel here.
+ * This is a blue tint filter it will apply a blue tint to a image by changeing the blue values of every pixel to 255
+ * The image will still look the same just appear as if it has a blue film over it.
  *
  * @author Steve Cate
  * @version 11/18/19
@@ -20,6 +21,11 @@ public class BlueTintFilter extends Filter
         super(name);
     }
     
+    /**
+     * This will apply the blue tint to a image that is given as a parmater
+     * the tint is applied pixel by pixel in a loop.
+     * @param OFImage image
+     */
     public void apply(OFImage image)
     {
         original = new OFImage(image);
